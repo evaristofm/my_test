@@ -42,6 +42,8 @@ watchers_json = json.dumps(watchers, indent=True)
 
 with open('manager.json', 'w+') as file:
     file.write(managers_json)
+    file.close()
 
 with open('watchers.json', 'w+') as file:
     file.write(watchers_json)
+    file.close()
